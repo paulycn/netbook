@@ -1,0 +1,113 @@
+.footer_wrapper_bottom {
+    background: #20202D;
+    display: flex;
+    height: 96px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+}
+
+p.agency {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #F6F6F6;
+    padding-left: 135px;
+}
+
+.logo_footer {
+    display: flex;
+    align-items: center;
+}
+
+.logo_bottom {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-left: 7px;
+}
+
+.footer_icons > i.fa {
+    width: 36px;
+    height: 36px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px;
+    margin-right:8px ;
+}
+
+.footer_wrapper {
+    background: #2B2B39;
+}
+.footer_menu {
+    display: flex;
+    gap: 98px;
+    padding: 78px 90px 85px 135px;
+}
+
+.footer_group {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h3.item_footer {
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding-bottom: 22px;
+    line-height: 32px;
+}
+
+.lists_footer {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 46px;
+    letter-spacing: 0.0125em;
+    color: #E7E7E7;
+}
+
+.about_footer {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #E7E7E7;
+    padding-bottom: 32px;
+}
+
+.button_footer {
+    display: flex;
+}
+
+.mail_input {
+    background: #2B2B39;
+    border-radius: 10px;
+    position: relative;
+    width: 312px;
+    height: 50px;
+    border-color:#8C8C8C;
+    border-style: ridge;
+    padding-left: 14px;
+}
+
+textarea.mail_input:focus,input.mail_input:focus {
+    color: #FFFFFF;
+}
+
+.btn.btn_secondary.bottom {
+    position: absolute;
+    width: 138px;
+    height: 50px;
+    color: #2B2B39;
+    margin-left: 173px;
+    border-radius: 10px;
+    align-items: center;
+    font-weight: 500;
+    padding-left: 29px;
+    font-size: 16px;
+    box-shadow: none;
+}

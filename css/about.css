@@ -1,0 +1,80 @@
+
+.about_wrapper {
+    margin-left: 135px;
+    margin-top: 97px;
+}
+
+ul.group {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #171648;
+    padding-bottom: 16px;
+    list-style: none ; 
+}
+
+ul li {
+    padding-left: 10px;
+}
+
+ul li::before {
+    content: "\2022"; 
+    color: #217BF4;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    padding-bottom: 16px;
+    background-image: url(../img/Ellipse\ 10.png);
+    background-repeat: no-repeat;
+}
+
+.about {
+    display: flex;
+    border-bottom: 1px solid #cf2020;
+}
+
+.about_images_section {
+    display: flex;
+    width: 270px;
+    height: 368px;
+    margin: 104px 29px 104px 200px;
+    border-radius:1px;
+}
+
+.about_second_image {
+    width: 267px;
+    height: 252px;
+}
+
+.about_first_picture {
+    border-radius: 10px;
+}
+
+.about_second_picture {
+    width: 265px;
+    height: 238px;
+    margin: -80px 35px 32px 29px;
+}
+
+.about_third_picture {
+    height: 255px;
+    margin: 24px 35px auto 29px;
+    padding-bottom: 46px;
+}
+
+.button_roundone {
+    border-radius:50%;
+    border-color: #2766F7;
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    position: absolute;
+    margin: 160px 120px;
+}
+
+.button_roundone i.fa {
+    color: #2766F7;
+}

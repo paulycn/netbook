@@ -1,0 +1,137 @@
+.achievement_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #cf2020;   
+}
+
+.rating_block i.fa {
+    color: #2766F7;
+    display: flex;
+}
+
+.icon_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #0A093D;
+    padding-left: 10px;
+}
+
+.members_circle {
+    display: flex;
+    align-items:center;
+    padding-top:39px ;
+    padding-bottom: 43px;
+}
+
+.members_number {
+    padding-left: 30px;
+    font-weight: 500;
+    color: #5D5B70;
+}
+
+.members_pics {
+    margin-right: -33px;
+    margin-top: 6px;
+}
+
+.members_pics:first-child{
+    margin-left: -15px;
+}
+
+.blueone {
+    color: #217BF4;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+}
+
+.link_members {
+    display: flex;
+}
+
+.paragraph.about_achievement {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8C8C8C;
+    padding-bottom: 40px;
+    width: 274px;
+    height: 78px;
+}
+
+.link_members {
+    text-decoration: none;
+    color: #4A4A56;
+    width: 106px;
+    height: 16px;
+}
+
+.link_members:hover {
+    transition: opacity .2 ease;
+    color: #217BF4;
+}
+
+.github {  
+    margin-left: -15px;
+    margin-top: 7px;
+}
+
+.members_number.second_number {
+    padding-left:0px;
+}
+
+.the_blue_title.achievement_block {
+    padding-top: 10px;
+    padding-bottom: 18px;
+}
+
+.paragraph.achievement_third_block {
+    width: 365px;
+    height: 84px;
+    margin-bottom: 38px;
+}
+
+.btn.btn_larger {
+    display: flex;
+    width: 192px;
+    height: 58px;
+    align-items:center;
+    font-size: 14px;
+    line-height: 14px;
+    gap: 10px;
+}
+
+.rating_block {
+    padding: 46px 18px 10px 44px;    
+    box-shadow: 0px 0px 0px 1px #92a5b824;
+    margin: 75px 24px 75px 135px;
+    border-radius: 14px;
+}
+
+.rating_block:hover { 
+    box-shadow: 0px 26px 49px 0px #92A5B824;
+}
+
+.link_members {
+    display: flex;
+    gap:10px;
+    font-size: 16px;
+    line-height: 16px; 
+    width: 192px;
+    height: 58px; 
+    align-items:center;
+    padding: 40px 0px;
+}
+
+.rating_block:nth-child(2) {
+    margin-left: 0px;
+}
+
+.rating_block_discover {
+    padding: 32px 55px 55px 69px;
+}

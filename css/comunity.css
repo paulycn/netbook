@@ -1,0 +1,116 @@
+.comunity_wrapper {
+    margin-left: 135px;
+}
+
+.comunity_text {
+    width: 210px;
+    height: 44px;
+    background: rgb(33 123 244 / 10%);
+    border-radius: 8px;
+    color: #217BF4;
+    padding: 12px 30px;
+    text-align: center;
+    margin-top: 125px;  
+    margin-bottom: 20px;
+    display: block;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    color: #0A093D;
+    margin-bottom: 18px;   
+}
+
+.comunity_paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #656464;
+    margin-bottom: 42px
+}
+
+.comunity_buttons .btn:first-child {
+    margin-bottom: 165px;
+    margin-right: 18px;
+}
+
+.comunity {
+    display: flex;
+    border-bottom: 1px solid #cf2020;
+}
+
+.comunity_second_block {
+    margin-top: 72px;
+    padding-bottom: 82px;
+}
+
+.community {
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+    border-bottom: 1px solid #cf2020;
+}
+
+.community_parth {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.community_wrapper {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 44px;
+    margin:64px 176px 80px 176px;
+}
+
+.community_block {
+    display: flex;
+    align-items:center;
+    gap: 36px;
+    background: #FFFFFF;
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+    border-radius: 14px;
+    padding: 12px 40px 50px 40px;
+}
+
+.icons_background {
+    width: 66px;
+    height: 66px;
+    border-radius: 24px;
+    padding: 19px 16px;
+}
+
+.icons_background.blue_background {
+    background: linear-gradient(154.49deg, #5CA1FE 6.61%, #217BF4 89.72%);
+    box-shadow: 0px 10px 22px -2px rgba(109, 171, 255, 0.36);
+}
+
+.icons_background.red_background {
+    background: linear-gradient(154.49deg, #FF858A 6.61%, #F04148 89.72%);
+    box-shadow: 0px 8px 22px -2px rgba(248, 87, 94, 0.3);
+}
+
+.icons_background.yellow_background {
+    background: linear-gradient(154.49deg, #FFD085 6.61%, #FFAF2E 89.72%);
+    box-shadow: 0px 10px 22px -2px rgba(250, 186, 84, 0.3);
+}
+
+p.title_of_block {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: #2F2C4A;
+    width: 209px;
+    height: 26px;
+    margin-bottom: 14px;
+    text-align: left;
+}
+
+p.about_community {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 315px;
+    height: 52px;
+    color: #656464;
+}
