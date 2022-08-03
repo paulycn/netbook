@@ -2,25 +2,25 @@
 @import url('./about.css');
 @import url('./team.css');
 @import url('./achievement.css');
-@import url('./aplication.css');
-@import url('./comunity.css');
+@import url('./application.css');
+@import url('./community.css');
 @import url('./footer.css');
 @import url('./header.css');
 @import url('./mobile.css');
-
+@import url('./solutions.css');
 
 * {
     box-sizing: border-box;
-    font-family: 'Inter';
+}
+
+html, body {
+    font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
-}
-
-body{
-    margin:0;
 }
 
 .btn {
