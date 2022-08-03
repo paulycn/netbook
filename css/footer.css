@@ -15,12 +15,12 @@ p.agency {
     padding-left: 135px;
 }
 
-.logo_footer {
+.footer_logo {
     display: flex;
     align-items: center;
 }
 
-.logo_bottom {
+.footer_logo_text {
     font-weight: 600;
     font-size: 24px;
     line-height: 24px;
@@ -41,20 +41,22 @@ p.agency {
 .footer_wrapper {
     background: #2B2B39;
 }
+
 .footer_menu {
     display: flex;
     gap: 98px;
     padding: 78px 90px 85px 135px;
 }
 
-.footer_group {
+.footer_menu .footer_menu_column {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
 }
 
-h3.item_footer {
+.footer_menu .footer_menu_column h3,
+.footer_newsletter_column h3 {
     font-size: 20px;
     line-height: 20px;
     color: #FFFFFF;
@@ -62,7 +64,7 @@ h3.item_footer {
     line-height: 32px;
 }
 
-.lists_footer {
+.footer_menu .footer_menu_column a {
     text-decoration: none;
     font-weight: 400;
     font-size: 16px;
@@ -71,7 +73,7 @@ h3.item_footer {
     color: #E7E7E7;
 }
 
-.about_footer {
+.footer_newsletter_column p {
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
@@ -79,11 +81,11 @@ h3.item_footer {
     padding-bottom: 32px;
 }
 
-.button_footer {
+.footer_newsletter_form {
     display: flex;
 }
 
-.mail_input {
+.footer_newsletter_form input {
     background: #2B2B39;
     border-radius: 10px;
     position: relative;
@@ -92,16 +94,14 @@ h3.item_footer {
     border-color:#8C8C8C;
     border-style: ridge;
     padding-left: 14px;
-}
-
-textarea.mail_input:focus,input.mail_input:focus {
     color: #FFFFFF;
 }
 
-.btn.btn_secondary.bottom {
+.footer_newsletter_form .btn {
     position: absolute;
     width: 138px;
     height: 50px;
+    background: white;
     color: #2B2B39;
     margin-left: 173px;
     border-radius: 10px;

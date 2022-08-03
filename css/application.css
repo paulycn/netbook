@@ -1,10 +1,10 @@
 
-.aplication_intro {
+.application_intro {
     text-align: center;
     padding: 130px 400px 60px 400px;
 }
 
-.aplication_wrapper {
+.application_wrapper {
     display: flex;
     justify-content: space-evenly;
     gap: 45px;
@@ -12,7 +12,7 @@
     border-bottom: 1px solid #cf2020;
 }
 
-.aplication_title {
+.application_title {
     font-weight: 600;
     font-size: 20px;
     line-height: 32px;
@@ -21,11 +21,11 @@
     padding-left: 73px;
 }
 
-.aplication_radius {
+.application_radius {
     border-radius: 20px;
 }
 
-.link_members.aplication_link {
+.link_members.application_link {
     width: 250px;
     gap: 2px;
     padding-left: 73px;
@@ -33,7 +33,7 @@
     font-weight: 400;
 }
 
-.link_members.aplication_link:hover {
+.link_members.application_link:hover {
     transition: opacity .2 ease;
     color: #217BF4;
 }
