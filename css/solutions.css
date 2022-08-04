@@ -3,7 +3,7 @@
     margin-left: 135px;
 }
 
-.solutions_text {
+.solutions_block .label {
     width: 210px;
     height: 44px;
     background: rgb(33 123 244 / 10%);
@@ -16,7 +16,7 @@
     display: block;
 }
 
-.title {
+.solutions_block h1 {
     font-weight: 700;
     font-size: 56px;
     line-height: 66px;
@@ -24,7 +24,7 @@
     margin-bottom: 18px;   
 }
 
-.solutions_paragraph {
+.solutions_block p {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
@@ -42,7 +42,8 @@
     border-bottom: 1px solid #cf2020;
 }
 
-.solutions_second_block {
+.solutions .solutions_second_block {
     margin-top: 72px;
     padding-bottom: 82px;
 }
+

@@ -13,7 +13,7 @@
     box-sizing: border-box;
 }
 
-html, body {
+html, body, footer {
     font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;
     margin: 0;
@@ -79,6 +79,8 @@ h1, h2, h3, h4, h5, h6, p {
     line-height: 28px;
     color: #656464;
 }
+
+
 
 
 

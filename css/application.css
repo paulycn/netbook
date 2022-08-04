@@ -1,10 +1,9 @@
-
-.application_intro {
+.application .application_intro {
     text-align: center;
     padding: 130px 400px 60px 400px;
 }
 
-.application_wrapper {
+.application .application_wrapper {
     display: flex;
     justify-content: space-evenly;
     gap: 45px;
@@ -12,17 +11,17 @@
     border-bottom: 1px solid #cf2020;
 }
 
-.application_title {
+.application_wrapper .application_block img {
+    border-radius: 20px;
+}
+
+.application_block .application_parth .application_title {
     font-weight: 600;
     font-size: 20px;
     line-height: 32px;
     color: #2F2C4A;
     padding-top: 25px;
     padding-left: 73px;
-}
-
-.application_radius {
-    border-radius: 20px;
 }
 
 .link_members.application_link {
@@ -44,11 +43,11 @@
     padding-top: 5px;   
 }
 
-.mass {
+.application_parth .mass {
     position: relative;
 } 
 
-.mass::before {
+.application_parth .mass::before {
     content: '';
     position: absolute;
     width: 39px;
@@ -56,3 +55,4 @@
     border: 2px solid #FFAF2E;
     margin-top: 46px;
 } 
+

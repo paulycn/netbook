@@ -5,35 +5,51 @@
     border-bottom: 1px solid #cf2020;   
 }
 
-.rating_block i.fa {
+.achievement_wrapper .rating_block i.fa {
     color: #2766F7;
     display: flex;
 }
 
-.icon_title {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
+.rating_block .icon_and_title{
+    display: flex;
+}
+
+.rating_block .icon_and_title p {
     font-size: 20px;
     line-height: 20px;
     color: #0A093D;
     padding-left: 10px;
 }
 
-.members_circle {
+.rating_block {
+    padding: 46px 18px 10px 44px;    
+    box-shadow: 0px 0px 0px 1px #92a5b824;
+    margin: 75px 24px 75px 135px;
+    border-radius: 14px;
+}
+
+.rating_block:hover { 
+    box-shadow: 0px 26px 49px 0px #92A5B824;
+}
+
+.rating_block:nth-child(2) {
+    margin-left: 0px;
+}
+
+.rating_block .members_circle {
     display: flex;
     align-items:center;
     padding-top:39px ;
     padding-bottom: 43px;
 }
 
-.members_number {
+.rating_block .members_circle p {
     padding-left: 30px;
     font-weight: 500;
     color: #5D5B70;
 }
 
-.members_pics {
+.members_circle .members_pics {
     margin-right: -33px;
     margin-top: 6px;
 }
@@ -42,7 +58,7 @@
     margin-left: -15px;
 }
 
-.blueone {
+.members_circle .blue_word {
     color: #217BF4;
     font-weight: 600;
     font-size: 16px;
@@ -52,6 +68,19 @@
 
 .link_members {
     display: flex;
+    text-decoration: none;
+    color: #4A4A56;
+    width: 106px;
+    height: 16px;
+}
+
+.link_members:hover {
+    transition: opacity .2 ease;
+    color: #217BF4;
+}
+
+.rating_block_discover {
+    padding: 32px 55px 55px 69px;
 }
 
 .paragraph.about_achievement {
@@ -64,24 +93,12 @@
     height: 78px;
 }
 
-.link_members {
-    text-decoration: none;
-    color: #4A4A56;
-    width: 106px;
-    height: 16px;
-}
-
-.link_members:hover {
-    transition: opacity .2 ease;
-    color: #217BF4;
-}
-
-.github {  
+.members_circle .github {  
     margin-left: -15px;
     margin-top: 7px;
 }
 
-.members_number.second_number {
+.rating_block .members_circle .second_number {
     padding-left:0px;
 }
 
@@ -106,17 +123,6 @@
     gap: 10px;
 }
 
-.rating_block {
-    padding: 46px 18px 10px 44px;    
-    box-shadow: 0px 0px 0px 1px #92a5b824;
-    margin: 75px 24px 75px 135px;
-    border-radius: 14px;
-}
-
-.rating_block:hover { 
-    box-shadow: 0px 26px 49px 0px #92A5B824;
-}
-
 .link_members {
     display: flex;
     gap:10px;
@@ -127,11 +133,5 @@
     align-items:center;
     padding: 40px 0px;
 }
+/* it's used on application file */
 
-.rating_block:nth-child(2) {
-    margin-left: 0px;
-}
-
-.rating_block_discover {
-    padding: 32px 55px 55px 69px;
-}

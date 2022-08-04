@@ -1,13 +1,14 @@
+.about {
+    display: flex;
+    border-bottom: 1px solid #cf2020;
+}
 
 .about_wrapper {
     margin-left: 135px;
     margin-top: 97px;
 }
 
-ul.group {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
+.about_block ul {
     font-size: 18px;
     line-height: 18px;
     color: #171648;
@@ -15,11 +16,11 @@ ul.group {
     list-style: none ; 
 }
 
-ul li {
+.about_block ul li {
     padding-left: 10px;
 }
 
-ul li::before {
+.about_block ul li::before {
     content: "\2022"; 
     color: #217BF4;
     font-weight: bold;
@@ -31,12 +32,7 @@ ul li::before {
     background-repeat: no-repeat;
 }
 
-.about {
-    display: flex;
-    border-bottom: 1px solid #cf2020;
-}
-
-.about_images_section {
+.about_first_block_of_images {
     display: flex;
     width: 270px;
     height: 368px;
@@ -44,13 +40,13 @@ ul li::before {
     border-radius:1px;
 }
 
-.about_second_image {
-    width: 267px;
-    height: 252px;
+.about_first_block_of_images > img {
+    border-radius: 10px;
 }
 
-.about_first_picture {
-    border-radius: 10px;
+.about_second_block_of_images {
+    width: 267px;
+    height: 252px;
 }
 
 .about_second_picture {
@@ -65,7 +61,7 @@ ul li::before {
     padding-bottom: 46px;
 }
 
-.button_roundone {
+.about_first_block_of_images button {
     border-radius:50%;
     border-color: #2766F7;
     width: 44px;
@@ -75,6 +71,7 @@ ul li::before {
     margin: 160px 120px;
 }
 
-.button_roundone i.fa {
+.about_first_block_of_images button i.fa {
     color: #2766F7;
 }
+
