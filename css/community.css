@@ -1,7 +1,5 @@
-
 .community {
     background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
-    border-bottom: 1px solid #cf2020;
 }
 
 .community .community_parth {
@@ -55,7 +53,7 @@
     color: #2F2C4A;
     width: 209px;
     height: 26px;
-    margin-bottom: 14px;
+    margin:30px 0 14px 0;
     text-align: left;
 }
 

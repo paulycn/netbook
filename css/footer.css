@@ -20,7 +20,7 @@
     font-size: 20px;
     line-height: 20px;
     color: #FFFFFF;
-    padding-bottom: 22px;
+    margin-bottom: 22px;
     line-height: 32px;
 }
 
@@ -52,7 +52,7 @@
     width: 312px;
     height: 50px;
     border-color:#8C8C8C;
-    border-style: ridge;
+    border-style: solid;
     padding-left: 14px;
     color: #FFFFFF;
 }
@@ -70,26 +70,29 @@
     padding-left: 29px;
     font-size: 16px;
     box-shadow: none;
+    border: 0;
 }
 
 .footer_bottom {
     background: #20202D;
+}
+
+.footer_bottom_wrapper {
     display: flex;
     height: 96px;
     justify-content: space-between;
     align-items: center;
-    padding-right: 100px;
+    padding: 0 135px;
 }
 
-.footer_bottom p {
+.footer_bottom_wrapper p {
     font-weight: 400;
     font-size: 14px;
     line-height: 14px;
     color: #F6F6F6;
-    padding-left: 135px;
 }
 
-.footer_bottom .footer_logo {
+.footer_bottom_wrapper .footer_logo {
     display: flex;
     align-items: center;
 }
@@ -102,7 +105,7 @@
     padding-left: 7px;
 }
 
-.footer_bottom .footer_icons > i.fa {
+.footer_bottom_wrapper .footer_icons > i.fa {
     width: 36px;
     height: 36px;
     background-color: #FFFFFF;

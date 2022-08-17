@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid #cf2020;   
 }
 
 .achievement_wrapper .rating_block i.fa {
@@ -131,7 +130,7 @@
     width: 192px;
     height: 58px; 
     align-items:center;
-    padding: 40px 0px;
+    margin: 40px 0px;
 }
 /* it's used on application file */
 

@@ -13,6 +13,19 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1440px;
+    margin: 0 auto;  
+}
+
+.container.flex_container {
+    display: flex;
+}
+
+.main {
+    width: 100%;
+}
+
 html, body, footer {
     font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 500;

@@ -1,35 +1,30 @@
-.about {
-    display: flex;
-    border-bottom: 1px solid #cf2020;
-}
-
-.about_wrapper {
+.about .about_wrapper {
     margin-left: 135px;
     margin-top: 97px;
 }
 
-.about_block ul {
+.about .about_wrapper .about_block ul {
     font-size: 18px;
     line-height: 18px;
     color: #171648;
-    padding-bottom: 16px;
+
     list-style: none ; 
+    padding-inline-start: unset;
 }
 
 .about_block ul li {
-    padding-left: 10px;
+    margin-bottom: 16px;
 }
 
 .about_block ul li::before {
-    content: "\2022"; 
-    color: #217BF4;
-    font-weight: bold;
+    content: " "; 
+    background-color: #217BF4;
     display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-    padding-bottom: 16px;
-    background-image: url(../img/Ellipse\ 10.png);
-    background-repeat: no-repeat;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 5px solid #EEF2F9; 
+    margin-right:17px;
 }
 
 .about_first_block_of_images {
@@ -69,9 +64,11 @@
     background-color: white;
     position: absolute;
     margin: 160px 120px;
+    border: 0;
 }
 
 .about_first_block_of_images button i.fa {
     color: #2766F7;
+    margin-top: 5px;
 }
 
