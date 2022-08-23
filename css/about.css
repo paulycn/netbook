@@ -7,9 +7,12 @@
     font-size: 18px;
     line-height: 18px;
     color: #171648;
-
     list-style: none ; 
     padding-inline-start: unset;
+}
+
+.about_block p {
+    width: 400px;
 }
 
 .about_block ul li {
@@ -70,5 +73,38 @@
 .about_first_block_of_images button i.fa {
     color: #2766F7;
     margin-top: 5px;
+}
+
+@media (max-width:414px) {
+    .about .about_wrapper {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_first_block_of_images {
+        margin: 0;
+        height: 320px;
+    }
+
+    .about_second_block_of_images {
+        display: none;
+    }
+
+    .about_block p,
+    .about .about_wrapper .about_block ul {
+        padding: 0 50px;
+    }
+
+    .about_first_block_of_images button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .about_first_block_of_images button i.fa {
+        margin-top: 3px;
+    }
+
 }
 

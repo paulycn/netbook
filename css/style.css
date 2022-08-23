@@ -93,7 +93,40 @@ h1, h2, h3, h4, h5, h6, p {
     color: #656464;
 }
 
+@media (max-width:414px) {
+    .conatiner {
+        margin: 0 auto;
+        max-width:100%;
+    }
 
+    .btn {
+        width: 80px;
+        height: 40px;
+        padding: 0;
+    }
+
+    .btn.btn_large {
+        padding: 0;
+        height: 40px;
+        width: 90px;
+    }
+
+    .the_big_title {
+        font-size: 26px;
+        line-height: 37px;
+        text-align: center;
+    }
+
+    .the_blue_title {
+        text-align: center;
+    }
+
+    .btn.btn_larger {
+        width: 150px;
+        height: 50px;
+        justify-content: center;
+    }
+}
 
 
 

@@ -53,3 +53,13 @@
     margin-top: 46px;
 } 
 
+@media (max-width:414px) {
+    .application .application_intro {
+       padding: 60px 10px 30px 10px ; 
+    }
+
+    .application .application_wrapper {
+        flex-direction: column; 
+        align-items:center;
+    }
+}

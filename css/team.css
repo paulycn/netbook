@@ -91,3 +91,17 @@
     color: #656464;
 }
 
+@media(max-width:414px) {
+    .group_item_team a {
+        width: 120px;
+        height: 6px;
+        padding: 25px 30px;
+    }
+
+    .team .team_wrapper {
+        padding: 0 0 30px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

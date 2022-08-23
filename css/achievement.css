@@ -134,3 +134,38 @@
 }
 /* it's used on application file */
 
+@media(max-width:414px) {
+    .achievement_wrapper {
+        flex-direction: column;
+    }
+
+    .rating_block {
+        margin: 30px;
+    }
+
+    .rating_block_discover {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .paragraph.achievement_third_block {
+        width: 295px;
+    }
+
+    .rating_block .members_circle {
+        padding: 15px 0;
+    }
+
+    .rating_block_discover .buton {
+        margin-left: 70px;
+    }
+
+    .link_members {
+        margin: 20px 0px;
+    }
+
+    .rating_block:nth-child(2) {
+        margin-left: 30px;
+    }
+
+}
