@@ -117,9 +117,9 @@
 
 @media (max-width:414px) {
     .footer_wrapper .footer_menu {
-        display: flex;
+        display: grid;
         gap: 20px;
-        flex-direction: column;
+        grid-template-columns: 181px 1fr;
         padding: 10px;
         justify-items: center;
     }
@@ -134,7 +134,7 @@
     }
 
     .footer_newsletter_column {
-        padding: 30px 0 0 20px;
+        padding: 30px 0 0 160px;
     }
 
     .footer_bottom_wrapper {
