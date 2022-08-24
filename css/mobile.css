@@ -20,8 +20,9 @@
 }
 
 @media (max-width:414px) {
-    .container.flex_container {
+    .mobile .container.flex_container {
         flex-direction: column;
+        margin-bottom: 0;
     }
     
     .mobile .mobile_parth {
