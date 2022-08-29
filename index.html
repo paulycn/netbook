@@ -439,5 +439,22 @@
             </div>
         </div>
     </footer>
+    <script>
+        let menu_bar = document.querySelectorAll('.nav_link')
+        for (let link_bar of menu_bar) {
+            link_bar.onclick = function() {
+                document.querySelector('.menu .active').classList.remove('active')
+                this.classList.add('active')
+            }
+        }
+
+        let group_team = document.querySelectorAll('.group_item_team a')
+        for (let team_active of group_team) {
+            team_active.onclick = function() {
+                document.querySelector('.group_item_team a.active').classList.remove('active')
+                this.classList.add('active')
+            }
+        }
+    </script>
 </body> 
 </html>
